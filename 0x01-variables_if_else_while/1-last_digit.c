@@ -28,7 +28,7 @@ if ( l == 0)
 {
 	printf(" and is 0");
 }
-if (x < 6 && l != 0)
+if (l < 6 && l != 0)
 {
 	printf(" and is less than 6 and not 0");
 }
