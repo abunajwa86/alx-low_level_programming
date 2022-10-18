@@ -5,7 +5,7 @@
  * Description: using main function to print Alphabet
  *
  * Return: 0
- * 
+ *
  */
 int main(void)
 {
