@@ -18,7 +18,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	l = n % 20;
+	l = n % 7;
 
 	if (l > 5)
 	{
