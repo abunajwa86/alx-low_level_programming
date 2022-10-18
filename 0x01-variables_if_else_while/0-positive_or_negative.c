@@ -10,9 +10,9 @@
 
 int main(void)
 
+	int n;
 {
-
-		int n;
+	
 
 
 
