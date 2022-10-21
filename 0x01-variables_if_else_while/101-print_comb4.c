@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * Return: Always 0 (Success)
@@ -19,9 +18,9 @@ int main(void)
 		m_d = (x / 10 % 10 + '0');
 		l_d = (x % 10 + '0');
 
-		if (f_d < m_d)
+		if ((f_d < m_d)
 			&&
-		(m_d < l_d)
+		(m_d < l_d))
 		{
 			putchar(f_d);
 			putchar(m_d);
