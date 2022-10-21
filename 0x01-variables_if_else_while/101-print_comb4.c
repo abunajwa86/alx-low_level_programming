@@ -27,14 +27,14 @@ int main(void)
 			putchar(l_d);
 
 			if
-	(c != 987);
+	(x != 987);
 
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
-		(c++);
+		(x++);
 	}
 	putchar('\n');
 	return (0);
