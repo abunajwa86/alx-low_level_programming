@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int x = 0
+	int x = 0;
 	int f_d;
 	int m_d;
 	int l_d;
@@ -21,7 +21,7 @@ int main(void)
 
 		if (f_d < m_d)
 			&&
-			(m_d < l_d)
+		(m_d < l_d)
 		{
 			putchar(f_d);
 			putchar(m_d);
