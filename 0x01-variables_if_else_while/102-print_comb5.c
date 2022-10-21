@@ -24,8 +24,8 @@ int main(void)
 
 		while (x2 <= 99)
 		{
-			f_d = (x2 / 10 + '0');
-			l_d = (x2 % 10 + '0');
+			f_d2 = (x2 / 10 + '0');
+			l_d2 = (x2 % 10 + '0');
 			if (x < x2)
 			{
 				putchar(f_d);
