@@ -27,7 +27,7 @@ int main(void)
 			putchar(l_d);
 
 			if
-	(x != 987);
+	(x != 987)
 
 			{
 				putchar(',');
