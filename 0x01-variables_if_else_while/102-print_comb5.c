@@ -7,42 +7,25 @@
  */
 int main(void)
 {
-	int x = 0;
-	int f_d;
-	int l_d;
-
-	int x2;
-	int f_d2;
-	int l_d2;	
-	while (x <= 98)
-
+	int i, j;
+	for (i = 0; i < 100; i++)
 	{
-		f_d = (x / 10 + '0');
-		l_d = (x % 10 + '0');
-
-		x2 = 0;
-
-		while (x2 <= 99)
+		for (j = 0; j < 100; j++)
 		{
-			f_d2 = (x2 / 10 + '0');
-			l_d2 = (x2 % 10 + '0');
-			if (x < x2)
+			if (i < j)
 			{
-				putchar(f_d);
-				putchar(l_d);
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
 				putchar(' ');
-				putchar(f_d2);
-				putchar(l_d2);
-
-				if (x != 98)
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
 				{
-					putchar(';');
+					putchar(',');
 					putchar(' ');
 				}
 			}
-		x2++;
 		}
-		x++;
 	}
 	putchar('\n');
 	return (0);
