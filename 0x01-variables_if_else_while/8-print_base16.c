@@ -6,6 +6,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+
 {
 	int i;
 	char ch;
@@ -20,5 +21,6 @@ int main(void)
 			putchar(ch);
 		}
 		putchar('\n');
-			return (0);
+	
+		return (0);
 }
