@@ -1,23 +1,28 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+*Return: Always 0 (success/correct)
+*/
 int main(void)
-{
-	int num;
-	for (num = 0; num <= 9; num++,'\n')
-	{
-		putchar(num % 10 + '0');
-		if (num != 9)
 
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
-		putchar('\n');
-		return (0);
+{
+
+int number;
+
+for (number = 48; number <= 57; number++)
+{
+putchar(number);
+
+if (number == 57)
+{
+break;
+}
+
+putchar(',');
+putchar (' ');
+}
+
+putchar('\n');
+return (0);
 }
