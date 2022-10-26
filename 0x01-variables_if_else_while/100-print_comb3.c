@@ -1,34 +1,33 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints combination of numbers
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int l_d;
+	int c, i;
 
-	while (c <= 99)
+	for (c = '0'; c <= '9'; c++)
 	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
-
-		if (f_d < l_d)
+		for (i = '0'; i <= '9'; i++)
 		{
-		putchar(f_d);
-		putchar(l_d);
-
-		if (c != 89)
+			if (c < i)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(c);
+				putchar(i);
+
+				if (c != '8' || (c == '8' && i != '9'))
+
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
-		c++;
 	}
 	putchar('\n');
+
 	return (0);
 }
